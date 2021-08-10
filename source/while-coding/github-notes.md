@@ -23,3 +23,19 @@
 
 
 Above steps were derived from links given [here](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
+
+### how to link issues and PRs
+- Link one issue with other :
+  - This can be done by creating a task within the issue and then converting that task into issue. Or mentioning issue in the task description. [Reference](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-task-list-item)
+- Link PR with an issue :
+  - open PR and in description you can mention issue that it addresses using any of the keyword like `closes`. Or you can mention issue in the `linked issues` section.
+
+### creating issue templates for all repos of a user:
+- create a new repo called `.github` under your user account
+- go to setting of `.github` repo and scroll down under `option` section
+- under `issues`, click on `enable templates`
+
+## To be read:
+
+- number of ways in Github to create an issue (https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-url-query)
+
