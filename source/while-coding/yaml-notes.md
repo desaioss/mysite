@@ -15,7 +15,9 @@ YAML needs a parser to create serialized stream of bits from YAML document. You 
 
 All the parsers will interpret the content of a yaml file with reference to [yaml spec](https://yaml.org/spec/1.2.2/). 
 
+## syntax 
 
+Good place to learn syntax: https://learnxinyminutes.com/docs/yaml/
 
 yaml comments start with `#`. And yaml only supports single line comments.
 
